@@ -8,6 +8,10 @@ require('dotenv').config()
 
 
 
+
+
+
+
 // const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.8jj3c.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.8jj3c.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 const app = express()
